@@ -47,3 +47,63 @@ body{
     transition: 0.5s;
     font-weight: bolder;
 }
+/* Configurção das area principal do site */
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-principal a{
+    color: #E4B125;
+}
+/* Inicio da configuração do conteudo */
+.area-conteudo{
+    width: 660px;
+    float: left;
+    margin-top: 50px;
+    background: #ffffff;
+}
+
+.area-conteudo h1{
+    padding: 20px;
+    background: #E4B125;
+}
+
+
+.area-conteudo img{
+    margin: 10px;
+}
+
+.area-conteudo p{
+    margin: 10px;
+}
+
+/* Fim da configuração do conteudo */
+
+/* inicio da configuração do menu lateral */
+.area-lateral{
+    width: 240px;
+    float: right;
+    margin-top: 50px;
+    position: relative;
+    background: #ffffff;
+}
+
+.area-lateral h3{
+    background: #E4B125;
+    padding: 10px;
+}
+.area-lateral p{
+    padding: 5px;
+}
+.menu-lateral{
+    padding: 5px;
+}
+/* Fim da configuração do menu lateral */
+
+.clear{
+    clear: left;
+}
+
+/* Fim da configuração principal do site */
