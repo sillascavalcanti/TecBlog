@@ -56,6 +56,11 @@ body{
 
 #area-principal a{
     color: #E4B125;
+    text-decoration: none;
+}
+
+#area-principal a:hover{
+    text-decoration: underline;
 }
 /* Inicio da configuração do conteudo */
 .area-conteudo{
@@ -67,10 +72,13 @@ body{
 
 .area-conteudo h1{
     padding: 20px;
+    padding-left: 10px;
     background: #E4B125;
 }
 
-
+.data{
+    font-weight: bold;
+}
 .area-conteudo img{
     margin: 10px;
 }
@@ -97,8 +105,10 @@ body{
 .area-lateral p{
     padding: 5px;
 }
-.menu-lateral{
-    padding: 5px;
+.menu-lateral {
+    display: flex;
+    padding: 3px;
+    text-decoration: none;
 }
 /* Fim da configuração do menu lateral */
 
@@ -107,3 +117,16 @@ body{
 }
 
 /* Fim da configuração principal do site */
+/* Inicio da configuração do rodape */
+
+.area-rodape{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 660px;
+    text-align: center;
+}
+
+.nome{
+    font-weight: bold;
+}
+/* Fim da configuração do rodape */
